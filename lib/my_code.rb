@@ -29,8 +29,8 @@ def map(source_array)
   end 
 end 
 
-def reduce(source_array)
-  source_array.reduce do |num|
+def reduce(source_array,strarting_point)
+  source_array.reduce(strarting_point) do |num|
     yield(num)
   end 
 end 
