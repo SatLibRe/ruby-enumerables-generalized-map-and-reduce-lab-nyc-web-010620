@@ -25,7 +25,7 @@
 
 def map(source_array)
   source_array.map do |num|
-    
+    num * yield
   end 
 end 
 
