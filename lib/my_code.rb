@@ -23,6 +23,8 @@
 #   return sum
 # end 
 
-
+def map(source_array)
+  
+end 
 
 
