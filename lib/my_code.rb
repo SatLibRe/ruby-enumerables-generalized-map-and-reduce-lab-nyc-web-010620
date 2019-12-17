@@ -29,4 +29,10 @@ def map(source_array)
   end 
 end 
 
+def reduce(source_array)
+  source_array.reduce do |num|
+    yield(num)
+  end 
+end 
+
 
