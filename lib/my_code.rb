@@ -24,7 +24,9 @@
 # end 
 
 def map(source_array)
-  
+  source_array.map do |num|
+    
+  end 
 end 
 
 
